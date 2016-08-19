@@ -16,7 +16,7 @@ public class findelements {
        System.out.println("Number of checkboxes" + list.size());
        for (int i=0;i < list.size();i++){
     	   list.get(i).click();*/
-		
+		System.out.println("adsadas");
 		FirefoxDriver driver = new FirefoxDriver();
 		driver.get("http://www.ironspider.ca/forms/checkradio.htm#checkbox");
 		int count = driver.findElements(By.cssSelector(".Example>form>input")).size();
