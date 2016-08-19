@@ -6,6 +6,7 @@ public class browserinvoking {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		System.out.println("adsadsad");
 		WebDriver driver = new FirefoxDriver();
 		driver.get("http://www.google.com");
 		String actual=driver.getTitle();
@@ -16,6 +17,7 @@ public class browserinvoking {
 		else{
 			System.out.println("Fail");
 		}
+		
 		
 
 	}
