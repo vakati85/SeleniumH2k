@@ -23,7 +23,7 @@ public class Screenshots {
 			// TODO Auto-generated catch block
 			e.printStackTrace();*/
 		}
-	 FileUtils.copyFile(source , new File(source + "/screenshot" + new SimpleDateFormat("HHmmss").format(Calendar.getInstance().getTime()).toString() + .jpg);
+	 
 
 	}
 
